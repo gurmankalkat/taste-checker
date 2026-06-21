@@ -1,0 +1,134 @@
+[
+  {
+    "id": "sw_clean_warm",
+    "image": "images/sw_clean_warm.jpg",
+    "human_label": "clean",
+    "raw_response": "{\"verdict\": \"clean\", \"is_undertone_clash\": false, \"reasoning\": \"The cream, camel, and warm brown all share consistent warm yellow/orange undertones, forming a coherent tonal progression within the warm neutral family.\"}",
+    "parsed": {
+      "verdict": "clean",
+      "is_undertone_clash": false,
+      "reasoning": "The cream, camel, and warm brown all share consistent warm yellow/orange undertones, forming a coherent tonal progression within the warm neutral family."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "sw_clean_cool",
+    "image": "images/sw_clean_cool.jpg",
+    "human_label": "clean",
+    "raw_response": "{\"verdict\": \"clean\", \"is_undertone_clash\": false, \"reasoning\": \"All three tones are cool-family greys ranging from light to charcoal, sharing consistent blue-grey undertones without any warm/cool conflict.\"}",
+    "parsed": {
+      "verdict": "clean",
+      "is_undertone_clash": false,
+      "reasoning": "All three tones are cool-family greys ranging from light to charcoal, sharing consistent blue-grey undertones without any warm/cool conflict."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "sw_clash_camel_bluegrey",
+    "image": "images/sw_clash_camel_bluegrey.jpg",
+    "human_label": "undertone_clash",
+    "raw_response": "{\"verdict\": \"flawed\", \"is_undertone_clash\": true, \"reasoning\": \"The warm camel/tan on the left clashes with the cool blue-grey on the right, creating an undertone conflict.\"}",
+    "parsed": {
+      "verdict": "flawed",
+      "is_undertone_clash": true,
+      "reasoning": "The warm camel/tan on the left clashes with the cool blue-grey on the right, creating an undertone conflict."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "sw_clash_warmbeige_cooltaupe",
+    "image": "images/sw_clash_warmbeige_cooltaupe.jpg",
+    "human_label": "undertone_clash",
+    "raw_response": "{\"verdict\": \"flawed\", \"is_undertone_clash\": true, \"reasoning\": \"The warm yellow-undertoned camel beige clashes against the cool blue-grey, creating an undertone conflict between the two neutrals.\"}",
+    "parsed": {
+      "verdict": "flawed",
+      "is_undertone_clash": true,
+      "reasoning": "The warm yellow-undertoned camel beige clashes against the cool blue-grey, creating an undertone conflict between the two neutrals."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "sw_clash_cream_oyster",
+    "image": "images/sw_clash_cream_oyster.jpg",
+    "human_label": "undertone_clash",
+    "raw_response": "{\"verdict\": \"flawed\", \"is_undertone_clash\": true, \"reasoning\": \"The warm cream/beige on the left clashes with the cool blue-grey on the right, creating a warm/cool undertone conflict.\"}",
+    "parsed": {
+      "verdict": "flawed",
+      "is_undertone_clash": true,
+      "reasoning": "The warm cream/beige on the left clashes with the cool blue-grey on the right, creating a warm/cool undertone conflict."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "gray_top_brown_pant",
+    "image": "images/outfit_clash_1.png",
+    "human_label": "undertone_clash",
+    "raw_response": "{\"verdict\": \"flawed\", \"is_undertone_clash\": true, \"reasoning\": \"The cool blue-grey halter top clashes with the warm reddish-brown camel trousers and tan clutch, creating an undertone conflict between cool and warm neutrals.\"}",
+    "parsed": {
+      "verdict": "flawed",
+      "is_undertone_clash": true,
+      "reasoning": "The cool blue-grey halter top clashes with the warm reddish-brown camel trousers and tan clutch, creating an undertone conflict between cool and warm neutrals."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "gray_monochrome_outfit",
+    "image": "images/outfit_clean_1.png",
+    "human_label": "clean",
+    "raw_response": "{\"verdict\": \"clean\", \"is_undertone_clash\": false, \"reasoning\": \"The light heather grey sweater, charcoal blue-grey trousers, and grey woven bag all share cool undertones, creating a cohesive monochromatic grey palette.\"}",
+    "parsed": {
+      "verdict": "clean",
+      "is_undertone_clash": false,
+      "reasoning": "The light heather grey sweater, charcoal blue-grey trousers, and grey woven bag all share cool undertones, creating a cohesive monochromatic grey palette."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "brown_monochrome_outfit",
+    "image": "images/outfit_clean_2.png",
+    "human_label": "clean",
+    "raw_response": "{\"verdict\": \"clean\", \"is_undertone_clash\": false, \"reasoning\": \"The brown sweater, brown corduroy pants, and brown bag all share consistent warm undertones, creating a tonal monochromatic palette with no clash.\"}",
+    "parsed": {
+      "verdict": "clean",
+      "is_undertone_clash": false,
+      "reasoning": "The brown sweater, brown corduroy pants, and brown bag all share consistent warm undertones, creating a tonal monochromatic palette with no clash."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "black_white_pant_outfit",
+    "image": "images/outfit_clean_3.png",
+    "human_label": "clean",
+    "raw_response": "{\"verdict\": \"clean\", \"is_undertone_clash\": false, \"reasoning\": \"The black top pairs with cream/ivory wide-leg trousers and a black bag, a classic high-contrast neutral combination with no warm/cool undertone conflict.\"}",
+    "parsed": {
+      "verdict": "clean",
+      "is_undertone_clash": false,
+      "reasoning": "The black top pairs with cream/ivory wide-leg trousers and a black bag, a classic high-contrast neutral combination with no warm/cool undertone conflict."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "brown_top_gray_pant_outfit",
+    "image": "images/outfit_clash_2.png",
+    "human_label": "undertone_clash",
+    "raw_response": "{\"verdict\": \"flawed\", \"is_undertone_clash\": true, \"reasoning\": \"The warm camel/brown sweater pairs against the cool blue-grey trousers and cool white shirt and sneakers, creating a warm/cool undertone conflict.\"}",
+    "parsed": {
+      "verdict": "flawed",
+      "is_undertone_clash": true,
+      "reasoning": "The warm camel/brown sweater pairs against the cool blue-grey trousers and cool white shirt and sneakers, creating a warm/cool undertone conflict."
+    },
+    "parse_error": null
+  },
+  {
+    "id": "brown_jacket_gray_top_pants_outfit",
+    "image": "images/outfit_clash_3.png",
+    "human_label": "undertone_clash",
+    "raw_response": "{\"verdict\": \"clean\", \"is_undertone_clash\": false, \"reasoning\": \"The cool ash-grey sweater and jeans share the same cool undertone family, and the warm distressed brown leather jacket reads as a neutral anchor rather than a clashing match, keeping the palette coherent.\"}",
+    "parsed": {
+      "verdict": "clean",
+      "is_undertone_clash": false,
+      "reasoning": "The cool ash-grey sweater and jeans share the same cool undertone family, and the warm distressed brown leather jacket reads as a neutral anchor rather than a clashing match, keeping the palette coherent."
+    },
+    "parse_error": null
+  }
+]
